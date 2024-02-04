@@ -81,7 +81,8 @@ Below is a sample Virtual Host configuration for Apache. Adjust paths and domain
 Usage
 
 Access your application via your server's IP address or domain name configured in the Apache Virtual Host.
-My FlaskApp:ec2-44-202-228-49.compute-1.amazonaws.com
+
+My FlaskApp: ec2-44-202-228-49.compute-1.amazonaws.com
 
 Troubleshooting
 
