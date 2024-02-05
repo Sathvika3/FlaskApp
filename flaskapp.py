@@ -92,7 +92,7 @@ def getNumberOfWords(file):
     return str(len(words))
 
 def responsePage(firstname, lastname, email, count):
-    return """ First Name :  """ + str(firstname) + """ <br> Last Name : """ + str(lastname) + """ <br> Email : """ + str(email) + """ <br> Word Count : """ + str(count) + """ <br><br> <a href="/download" >Download</a> """
+    return """ First Name :  """ + str(firstname) + """ <br> Last Name : """ + str(lastname) + """ <br> Email : """ + str(email) + """ <br> Word Count : """ + str(count) + """ <br><br> <button onclick="window.print()">Print this page</button> """
 
 if _name_ == '_main_':
   app.run()
